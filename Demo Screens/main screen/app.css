@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icons {
+  height: 10vh;
+  display: flex;
+  /* justify-content: end; */
+  align-items: end;
+}
+
+.bg {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("final_project_bg.png");
+  position: relative;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.summary-state {
+  border-radius: 10px;
+  opacity: 0.9;
+  display: block;
+  margin-top: 9rem;
+  margin-left: 2rem;
+  justify-content: center;
+}
+.summary-state .date {
+  margin: 2rem 0;
+  color: black;
+  font-size: 2rem;
+}
+.summary-state .summary-title h1 {
+  display: flex;
+  align-items: center;
+  font-family: fantasy;
+  color: darkgreen;
+  font-size: 4rem;
+  font-weight: 500px;
+  text-shadow: 3px 3px 0px #ffe2e0, 6px 6px 0 #728e96;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.items a {
+  padding-top: 20px;
+  margin: 5rem;
+}
+
+.items a:hover {
+  opacity: 0.7;
+}
+
+.fa-house {
+  color: darkgreen;
+  margin-right: 5px;
+  font-size: 50px;
+}
+.fa-bars {
+  color: darkgreen;
+  margin-right: 5px;
+  font-size: 50px;
+}
+.fa-gear {
+  color: darkgreen;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+
+h3 {
+  justify-content: center;
+  font-weight: normal;
+  font-weight: bold;
+  font-weight: 900;
+  margin: 30px;
+  font-style: italic;
+}
+
+.dynamic {
+  font-size: 60px;
+  color: darkgoldenrod;
+  font-size: 60px;
+  font-weight: 400;
+  animation: typing 1.5s step(10) infinite;
+}
+.wrapper .static-txts {
+  margin-left: 15px;
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+.static-txts li {
+  color: rgb(3, 81, 24);
+  list-style: none;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: fantasy;
+}
+
+.measure {
+  position: relative;
+  top: 75vh;
+  right: 68%;
+}
+.dynamic {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: rgb(3, 55, 3);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: fantasy;
+  text-shadow: 3px 3px 0px #ffe2e0, 6px 6px 0 #728e96;
+}
+
+.button {
+  position: relative;
+  top: 90vh;
+  right: 50%;
+}

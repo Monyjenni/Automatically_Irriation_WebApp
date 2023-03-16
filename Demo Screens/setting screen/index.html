@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parameters</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <form action="action_page.php" method="GET">
+      <div class="wrapper">
+        <div class="title">ENTER YOUR PARAMETERS</div>
+        <p>
+          Simply complete your details informations down below to set your own
+          parameters !
+        </p>
+        <div class="form">
+          <div class="input_field">
+            <label
+              for="humidity"
+              class="form-label"
+              placeholder="Enter Your Humidity"
+              required
+              >Humidity
+            </label>
+            <br />
+            <input
+              type="number"
+              class="input"
+              placeholder="Enter Your Humidity"
+              required
+            />
+          </div>
+          <div class="input_field">
+            <label
+              for="Temperature"
+              class="form-label"
+              placeholder="Enter Your Temperature"
+              required
+              >Temperature
+            </label>
+            <br />
+            <input
+              type="number"
+              class="input"
+              placeholder="Enter Your Temperature"
+              required
+            />
+            <label for="unit"></label>
+            <select id="unit">
+              <option value="unit">select unit</option>
+              <option value="celsius">C</option>
+              <option value="fahrenheit">F</option>
+            </select>
+          </div>
+          <div class="input_field">
+            <br />
+            <label>Soil Moisture</label>
+            <br />
+            <small>Start From</small>
+            <input
+              type="number"
+              class="input"
+              placeholder="Less Than"
+              required
+            />
+            <small>To Stop</small>
+            <input
+              type="number"
+              class="input"
+              placeholder="More than"
+              required
+            />
+          </div>
+          <div class="input_field">
+            <label for="appt">Break Time :</label>
+            <br />
+
+            <input
+              type="time"
+              id="appt"
+              name="appt"
+              min="09:00"
+              max="18:00"
+              required
+            />
+
+            <small>to</small>
+            <input
+              type="time"
+              id="appt"
+              name="appt"
+              min="09:00"
+              max="18:00"
+              required
+            />
+          </div>
+          <br />
+          <div class="button">
+            <input class="reset button" type="reset" />
+            <input class="submit button" type="submit" />
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
